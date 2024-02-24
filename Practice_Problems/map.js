@@ -76,12 +76,12 @@ for(const [key,value] of objMap)
 }
 
 
-// const readline = require('readline');
+const readline = require('readline');
 
-// const rl = readline.createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
 const quizzGame = new Map([
   ["Question", "What is arthi's current salary?"],
@@ -91,28 +91,6 @@ const quizzGame = new Map([
   ["true", "correct🥳🥂"],
   ["false", "Wrong!🥲"]
 ]);
-// console.log(quizzGame.get("Question"));
-// console.log("Choose the correct answer:");
-// for(const [key, value] of quizzGame) 
-// {
-//     if(typeof key === 'number') 
-//     {
-//         console.log(`Option ${key} : ${value}`);
-//     }
-// }
-// rl.question("Enter the answer: ", function(user) 
-// {
-//     if(user === "3,00,000") 
-//     {
-//         console.log(quizzGame.get("true"));
-//     } 
-//     else 
-//     {
-//         console.log(quizzGame.get("false"));
-//     }
-//     rl.close();
-// });
-
 
 ///covert map to array
 const arr6=[...quizzGame];
@@ -125,3 +103,28 @@ for(const [key,value] of quizzGame)
 {
     console.log(key+" "+value);
 }
+
+
+console.log(quizzGame.get("Question"));
+console.log("Choose the correct answer:");
+for(const [key, value] of quizzGame) 
+{
+    if(typeof key === 'number') 
+    {
+        console.log(`Option ${key} : ${value}`);
+    }
+}
+rl.question("Enter the answer: ", function(user) 
+{
+    if(user === "3,00,000") 
+    {
+        console.log(quizzGame.get("true"));
+    } 
+    else 
+    {
+        console.log(quizzGame.get("false"));
+    }
+    rl.close();
+});
+
+//Map is used when objects are needed to be changed in order to manipiulate thenm
