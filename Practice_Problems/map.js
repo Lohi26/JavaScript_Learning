@@ -115,9 +115,13 @@ const quizzGame = new Map([
 
 
 ///covert map to array
-
 const arr6=[...quizzGame];
 for(const j of quizzGame.values())
 {
     console.log(j);
+}
+
+for(const [key,value] of quizzGame)
+{
+    console.log(key+" "+value);
 }
