@@ -1,7 +1,7 @@
 
 const arr=[1,2,3,4,5];
 const map=new Map();
-map.set("Lohita","Vidhyapathi");
+map.set("Lohita","cp");
 map.set("Lohi","vp")
 map.set(arr,object={
     name:"Lohita",

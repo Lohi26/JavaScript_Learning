@@ -19,7 +19,7 @@ console.log(...nums);
 
 
 const str="Lohita";
-const ch="Vidhyapathi";
+const ch="cp";
 const name=[...str,...ch];
 console.log(name);
 

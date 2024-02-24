@@ -13,11 +13,11 @@ const family={
     Bname:"Sanjay Karthik",
     Myname:"Lohita"
 };
-family.Hname ||="Vidhyapathi";
+family.Hname ||="cp";
 
-family.MILname=family.Myname &&="Sudha";
+family.Lname=family.Myname && "Sudha";
 
-family.FILname ??="Nagaraj";
+family.Faname ??="Nagaraj";
 
 
 

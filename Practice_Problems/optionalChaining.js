@@ -1,7 +1,7 @@
 const information={
     statrUpName:"Spring Up Solutions",
-    Hisname:"vidhyapathi",
-    Hername:"Lohita Vidhyapathi",
+    Hisname:"cp",
+    Hername:"Lohita cp",
     HisAge:"22",
     HerAge:"20",
     location:"Coimbatore",

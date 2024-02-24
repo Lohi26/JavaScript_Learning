@@ -16,10 +16,10 @@ const {categories:cate, starterMenu:start,mainMenu:main}=resturant;
 console.log(cate,start,main);
 
 
-let Hisname="vp";
+let Hisname="cp";
 let Hername="Lohi";
 const obj={
-    Hisname:"vidhyapathi",
+    Hisname:"cp",
     Hername:"Lohita",
     HisAge:"22",
     HerAge:"20",
@@ -44,7 +44,7 @@ console.log(Wife,wifeAge);
 
 
 const details={
-    Hisname:"vidhyapathi",
+    Hisname:"cp",
     Hername:"Lohita",
     HisAge:"22",
     HerAge:"20",
@@ -64,8 +64,8 @@ console.log(Name+"\n"+age+"\n"+degree+"\n"+job);
 
 const information={
     statrUpName:"Spring Up Solutions",
-    Hisname:"vidhyapathi",
-    Hername:"Lohita Vidhyapathi",
+    Hisname:"cp",
+    Hername:"Lohita cpc",
     HisAge:"22",
     HerAge:"20",
     location:"Coimbatore",
