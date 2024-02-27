@@ -5,7 +5,7 @@ const message=function(str)
         console.log(str+ch);
     };
 };
-
+// message("Hi");
 const mess=message("Hii");
 mess("Lohita");
 mess("CP");
