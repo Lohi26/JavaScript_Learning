@@ -31,7 +31,7 @@ console.log(rating,ratingCount);
 
 
 
-//default values in destructuring
+//default values=0 in destructuring
 const ratingStars = [63405, 1808];
 const [oneStartRatings,twostartRatings,threeStartRatings=0]=ratingStars;
 console.log(oneStartRatings,twostartRatings,threeStartRatings);
