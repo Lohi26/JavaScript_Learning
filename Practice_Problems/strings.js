@@ -76,3 +76,9 @@ console.log(sl.slice(5));
 
 const myName="Lohita cp";
 console.log(myName.repeat(10));
+
+
+const s="arthikanagaraj@gmail.com";
+let index=s.indexOf("@");
+const c=s.substring(0,index);
+console.log(c);
