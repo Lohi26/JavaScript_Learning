@@ -4,7 +4,8 @@ const movements=[200,450,-400,3000,-650,-130,70,1300];
 //forEach is a higher order function which requires a call back function
 //passes the current array as the arguments
 
-movements.forEach(function(movements,i){
+movements.forEach(function(movements,i,mov){
+    console.log(mov);
     if(movements>0)
     {
         console.log(`You deposited : Rs ${movements} ${i}`);
