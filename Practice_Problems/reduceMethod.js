@@ -16,3 +16,9 @@ console.log(arr2);
 
 const arr3=arr.reduce( (acc,array) => acc+array,0);
 console.log(arr3);
+
+
+
+//also used for finding the maximum value
+const maxValue=arr.reduce( (acc,array) => Math.max(acc,array),arr[0]);
+console.log(maxValue);

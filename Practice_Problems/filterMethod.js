@@ -1,7 +1,7 @@
 const arr=[200,450,-400,3000,-650,-130,70,1300];
 
 const arr1=arr.filter( ar =>  ar<0);
-console.log(arr1);
+console.log(arr);
 
 
 //or
