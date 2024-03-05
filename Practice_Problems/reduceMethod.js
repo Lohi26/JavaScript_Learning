@@ -11,3 +11,8 @@ const arr2=arr.reduce(function(acc,ar,i){
     return acc*ar;
 },1);
 console.log(arr2);
+
+
+
+const arr3=arr.reduce( (acc,array) => acc+array,0);
+console.log(arr3);
