@@ -25,3 +25,14 @@ console.log(arr1);
 const str=["abi","zeeva","life","random","call"];
 str.sort();
 console.log(str);
+
+
+const array=[10,20,30,4,52,48,30,2,9,74];
+
+array.sort((a,b) => b-a);
+console.log(array);
+
+
+//the another way for sorting is using the difference operaor
+//a-b ------->ascending order
+//b-a ------->descending order
